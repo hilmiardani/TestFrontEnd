@@ -1,0 +1,360 @@
+/* here you can put your own css to customize and override the theme */
+.page-head .page-title {
+    padding: 0px;
+}
+.page-head .page-title h1 .fa {
+    font-size: 25px;
+    position: relative;
+    top: -2px;
+}
+.page-head .website .siteurl {
+    display: block;
+    font-size: 13px;
+    margin-top: 2px;
+    color: grey;
+}
+.page-content-wrapper .page-content {
+    padding-top: 1px;
+}
+.page-header.navbar {
+    height: 50px;
+    min-height: 50px;
+}
+.page-header.navbar .top-menu .navbar-nav> li.dropdown > .dropdown-toggle > .count-badge {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    padding: 3px 1px;
+    width: 18px;
+    height: 18px;
+}
+.page-header.navbar .search-form {
+    margin-top: 8px;
+    margin-right:5px;
+}
+.page-header.navbar .top-menu .navbar-nav>li.dropdown>.dropdown-toggle {
+    padding: 20px 12px 7px;
+    height: 49px;
+}
+.page-header.navbar .top-menu .navbar-nav>li.dropdown>.dropdown-toggle .username {
+    margin-top: 0px;
+}
+.page-header.navbar .menu-toggler.sidebar-toggler {
+    margin: 18px 0 0;
+}
+.page-header.navbar .page-logo {
+    height: auto;
+}
+.page-header.navbar .page-logo .logo-default {
+    margin: 9px 15px 0;
+    width: 160px;
+}
+.page-header.navbar .top-menu .navbar-nav > li.dropdown-user {
+    padding: 0px;
+}
+.page-header.navbar .top-menu .navbar-nav>li.dropdown-user .dropdown-toggle>img {
+    width: 32px;
+    height: 32px;
+}
+.page-header.navbar .top-menu .navbar-nav>li.quick-sidebar-toggler {
+    padding: 18px 12px 24px;
+}
+.page-header.navbar .top-menu .navbar-nav>li.dropdown {
+    height: 52px;
+}
+.page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-menu {
+    width: 130px !important;
+}
+.page-header.navbar .top-menu .navbar-nav>li.dropdown-dark .dropdown-menu .dropdown-menu-list>li a {
+    text-overflow: ellipsis;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.navbar-nav .dropdown-user .dropdown-toggle {
+    padding-top: 13px !important; 
+}
+.navbar-nav .dropdown-user .dropdown-toggle img {
+    margin-top: -5px !important;
+}
+
+.page-group .group, .page-group .company-icon {
+    font-size: 18px;
+    color: #fff;
+    margin: -5px 0 0;
+}
+.page-group .new-group {
+    color: #fff !important;
+}
+
+.page-container {
+    padding: 0px 20px 0;
+}
+.page-container .base-content {
+	margin-top: 15px;
+}
+.page-container .base-content.custom {
+    margin-top: -9px !important;
+}
+
+.page-content .page-head .page-title > h1 {
+    font-size: 30px;
+}
+
+.datasidebar li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.datasidebar li a {
+    color: #678098;
+    display: block;
+    position: relative;
+    margin: 1px 0 0;
+    border: 0;
+    padding: 12px 15px;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.datasidebar li a i {
+    font-size: 18px;
+    text-shadow: none;
+    font-weight: 300;
+    color: #a7bdcd;
+}
+.datasidebar li a [class^=icon-] {
+    top: 2px;
+    margin-left: 1px;
+    margin-right: 4px;
+}
+.datasidebar li.open a {
+    font-size: 14px;
+}
+.datasidebar li.open a, .datasidebar li:hover a {
+    background: #f2f6f9;
+}
+.datasidebar li.open a, .datasidebar li:hover a, .datasidebar li:hover a i {
+    color: #5b9bd1;
+}
+
+.datatable {
+    margin-bottom: 0px;
+}
+.datatable thead tr th:first-child {
+    width: 8%;
+    text-align: center;
+}
+.datatable thead tr th.status {
+    width: 10%;
+    text-align: center;
+}
+.datatable .loading img {
+    width: 35px;
+}
+
+.form-control.error + .select2-container .select2-selection--single {
+    border: 1px dotted #cc5965;
+}
+.select2-dropdown {
+    border: 1px solid #0e9aef;
+    border-radius: 0px;
+    z-index: 10010;
+}
+.select2-container .select2-selection--single {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    height: 34px !important;
+    border-radius: 0px;
+    outline: none;
+    border-color: #e5e6e7;
+}
+.select2-container.select2-container--open .select2-selection--single, .select2-container .select2-selection--single:focus {
+    border: 1px solid #0e9aef;
+}
+.select2-selection__arrow {
+    height: 34px !important;
+}
+.select2-selection__rendered {
+    padding-top: 3px;
+    font-size: 14px;
+}
+.select2-search__field {
+    outline: none;
+}
+.select2-results ul {
+    font-size: 14px;
+}
+
+.pagination-layout .btn:hover {
+    z-index: 5;
+}
+.pagination-layout .info {
+    margin-top: 7px;
+    font-size: 13px;
+}
+.pagination-layout .limit {
+    padding-top: 4px;
+}
+.pagination-layout .input-sm {
+    height: 33px;
+}
+.pagination-layout .paging {
+    width: 80%;
+}
+
+.portlet.custom {
+    margin-bottom: 10px;
+}
+.portlet.filter {
+    margin-bottom: 13px;
+}
+
+.chart-layout .session-num {
+    margin-top: -3px;
+    font-size: 25px;
+    color: #7f8c8d;
+}
+.chart-layout label {
+    font-size: 13px;
+}
+.chart-layout .portlet-body {
+    padding-top: 0px !important;
+}
+.chart-active-visitor .title h1 {
+    font-size: 30px;
+    margin-top: 5px;
+}
+.chart-active-visitor .count h2 {
+    padding: 8px 12px 20px 11px;
+    font-size: 65px;
+    font-weight: 600;
+}
+.chart-active-visitor .desc h4 {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+label.error {
+    color: #FF0000 !important;
+    font-size: 13px;
+}
+select.error, textarea.error, input.error {
+    border: 1px solid #FF0000 !important;
+}
+.copy-text {
+    width: 100%;
+    background: transparent;
+    border: 1px dashed;
+    padding: 3px 3px 5px 5px;
+    margin-top: 7px;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+}
+
+.profile-sidebar .profile-usertitle-name {
+    margin-bottom: 0px;
+}
+.profile-sidebar .profile-usertitle {
+    padding-bottom: 17px;
+}
+.profile-sidebar .profile-about {
+    padding: 10px 20px 0px 20px;
+}
+.profile-sidebar .profile-about span .fa {
+    text-align: center;
+}
+.profile-sidebar .profile-previlage {
+    color: #95a5a6;
+    font-weight: 600;
+}
+.profile-sidebar .profile-usermenu {
+    margin-top: 10px;
+    padding-bottom: 0px;
+    background-color: #bdc3c7;
+    text-align: center;
+}
+.profile-sidebar .profile-usermenu a:focus, .profile-sidebar .profile-usermenu:focus {
+    background-color: #bdc3c7;
+}
+.profile-usermenu ul li a:hover {
+    background-color: #bdc3c7;
+    color: #2c3e50;
+}
+.profile-usermenu ul li a {
+    color: #fff;
+}
+.profile-usermenu ul li a i {
+    margin-right: 0px;
+}
+.profile-userpic img {
+    width: 170px !important;
+    height: 170px !important;
+}
+
+.dataheader .label.label-icon {
+    padding: 4px 5px 4px 5px;
+    margin-right: 5px;
+    text-align: center!important;
+}
+.dataheader .label.label-icon i {
+    font-size: 14px;
+}
+
+.dashboard-stat {
+    margin-bottom: 10px;
+}
+
+.crop-layout {
+    width: 100%;
+    height: 370px;
+}
+.analytics_bydate .btn {
+    padding: 0px 6px;
+    margin: -5px 5px 5px 0px;
+}
+.analytics_bydate .btn .fa {
+    font-size: 10px;
+}
+
+.youtube-layout {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 11000;
+}
+.youtube-layout .youtube-hide {
+    position: fixed;
+    top: 45px;
+    right: 15px;
+    z-index: 11001;
+}
+
+.dropdown-custom {
+    width: 200px !important;
+}
+.dropdown-custom .external {
+    padding: 8px !important;
+}
+.dropdown-custom .dropdown-menu-list {
+    height: 90px !important;
+}
+.dropdown-custom .dropdown-menu-list li a {
+    padding: 12px 15px 13px !important;
+}
+.dropdown-custom .dropdown-menu-list .details .label {
+    padding: 3px 0 4px 6px !important;
+    margin-right: 10px !important;
+}
+
+.guide-table img {
+    width: 70px;
+}

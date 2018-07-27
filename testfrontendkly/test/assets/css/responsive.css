@@ -1,0 +1,135 @@
+@media only screen and (max-width: 1024px) {
+    .page-header.navbar .menu-toggler.responsive-toggler {
+        margin: 18.5px 14px 0 6px;
+    }
+    .page-group .company-icon {
+        display: none;
+    }
+    .page-header.navbar .page-top {
+        height: auto;
+    }
+    #section-paging .action-list {
+        padding-right: 50px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .page-header.navbar .search-form.open {
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width : 800px) {
+    .page-group .top-menu ul.nav.navbar-nav.pull-right {
+        margin-right: 20px;
+        float: left;
+    }
+    .page-header.navbar .page-top {
+        height: auto;
+        margin-top: 0px;
+    }
+    .page-group .company-icon {
+        display: block;
+    }
+    .pencarian-layout {
+        margin-top: 10px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .page-header.navbar {
+        height: 53px;
+    }
+    .page-header.navbar .search-form, .page-header.navbar .search-form.open {
+        margin-top: 0;
+    }
+    .page-header.navbar .page-top {
+        height: auto;
+    }    
+    .page-header.navbar .top-menu .navbar-nav>li.dropdown-user, .page-container {
+        padding: 0px;
+    }
+    .page-header.navbar .page-group {
+        margin-right: 70px;
+    }
+    .page-header.navbar .menu-toggler.responsive-toggler {
+        margin-bottom: 19px;
+    }
+    .search-form .input-group {
+        margin-top: 10px;
+    }
+    .page-header.navbar .page-group {
+        margin-right: 0px;
+    }
+
+    .page-header.navbar .top-menu .navbar-nav > li.dropdown-notification .dropdown-menu {
+        margin-right: -134px;
+    }
+    .page-header.navbar .top-menu .navbar-nav > li.dropdown-tasks .dropdown-menu {
+        margin-right: -46px;
+    }
+    .page-header.navbar .top-menu .navbar-nav > li.dropdown-inbox .dropdown-menu {
+        margin-right: -90px;
+    }
+
+    .page-header.navbar .top-menu .navbar-nav > li.dropdown-notification .dropdown-menu::after, .page-header.navbar .top-menu .navbar-nav > li.dropdown-notification .dropdown-menu::before {
+        margin-right: 130px;
+    }
+    .page-header.navbar .top-menu .navbar-nav > li.dropdown-tasks .dropdown-menu::after, .page-header.navbar .top-menu .navbar-nav > li.dropdown-tasks .dropdown-menu::before {
+        margin-right: 42px;
+    }
+    .page-header.navbar .top-menu .navbar-nav > li.dropdown-inbox .dropdown-menu::after, .page-header.navbar .top-menu .navbar-nav > li.dropdown-inbox .dropdown-menu::before {
+        margin-right: 85px;
+    }
+    
+    /* Company Section */
+    .page-header.navbar .page-group.top-menu .navbar-nav > li.dropdown .dropdown-menu::after {
+        right: 50px;
+    }
+    .page-group .nav.pull-right > li > .dropdown-menu, .nav > li > .dropdown-menu.pull-right {
+        right: -42px;
+    }
+
+    .table-container {
+        overflow-x: scroll;
+    }
+}
+
+@media only screen and (max-width : 640px) {
+    .page-head .title-action {
+        margin-top: 10px;
+    }
+    .page-header.navbar .search-form {
+        display: block;
+    }
+    .page-header.navbar .top-menu {
+        float: right;
+    }
+    .page-header.navbar .search-form {
+        margin-top: -54px;
+    }
+    .page-header.navbar .page-top {
+        height: auto;
+        margin-top: 0px;
+    }
+    .page-header.navbar .search-form {
+        margin-right: 55px;
+    }
+    .page-content-wrapper .page-content .page-title {
+        margin-bottom: 0px;
+    }
+    .expanding {
+        position: relative !important;
+    }
+    .page-container .base-content {
+        margin-top: 0px;
+    }
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    .page-header.navbar .page-group {
+        margin-top: -35px;
+    }
+}
